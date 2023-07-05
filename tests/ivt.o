@@ -1,0 +1,16 @@
+#.symtab.6
+0 0000 LOC UND -
+1 0000 EXT UND isr_reset
+2 0000 EXT UND isr_timer
+3 0000 EXT UND isr_terminal
+4 0000 EXT UND isr_user0
+5 0000 LOC ivt ivt
+
+#ivt.10
+00000000000000000000000000000000
+
+#.rela.ivt.4
+0000 R_VN16_16 1 (isr_reset) true
+0004 R_VN16_16 2 (isr_timer) true
+0006 R_VN16_16 3 (isr_terminal) true
+0008 R_VN16_16 4 (isr_user0) true

@@ -1,0 +1,9 @@
+#.symtab.3
+0 0000 LOC UND -
+1 0000 LOC isr isr
+2 0000 GLOB isr isr_terminal
+
+#isr.1
+20
+
+#.rela.isr.0

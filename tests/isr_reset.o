@@ -1,0 +1,11 @@
+#.symtab.4
+0 0000 LOC UND -
+1 0000 EXT UND my_start
+2 0000 LOC isr isr
+3 0000 GLOB isr isr_reset
+
+#isr.5
+50FF000000
+
+#.rela.isr.1
+0003 R_VN16_16 1 (my_start) false

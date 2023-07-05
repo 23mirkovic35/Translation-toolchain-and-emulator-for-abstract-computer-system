@@ -1,0 +1,11 @@
+#.symtab.4
+0 0000 LOC UND -
+1 0000 EXT UND value0
+2 0000 LOC isr isr
+3 0000 GLOB isr isr_user0
+
+#isr.1A
+B00612B01612A00F00ABCDA01F000000B00102A01642A0064220
+
+#.rela.isr.1
+000E R_VN16_16 1 (value0) false
